@@ -1,7 +1,7 @@
 // fixed according to lection
 import throttle from 'lodash.throttle';
 
-const form = document.querySelector('.feedback-form');
+const formRef = document.querySelector('.feedback-form');
 
 let formData = {
   email: '',
